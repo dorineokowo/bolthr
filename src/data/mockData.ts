@@ -38,7 +38,7 @@ export const kpiCards: KPICard[] = [
   {
     id: 'payroll',
     label: 'Monthly Payroll',
-    value: '$1.2M',
+    value: 'KSh 1.2M',
     change: '+2.1% vs last month',
     trend: 'up',
     icon: 'DollarSign',

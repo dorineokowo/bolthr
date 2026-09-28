@@ -8,9 +8,9 @@ export const employees: Employee[] = [
     lastName: 'Chen',
     avatar: '',
     initials: 'SC',
-    title: 'Chief People Officer',
+    title: 'Operations Lead',
     department: 'HR',
-    location: 'San Francisco, CA',
+    location: 'Nairobi, Kenya',
     status: 'Active',
     email: 'sarah.chen@nexushr.com',
     phone: '+1 (415) 555-0101',
@@ -27,9 +27,9 @@ export const employees: Employee[] = [
       { id: 'd3', name: 'I-9 Form', type: 'PDF', uploaded: '2019-03-15', size: '180 KB' },
     ],
     assets: [
-      { id: 'a1', name: 'MacBook Pro 16"', serial: 'MBP-2024-001', assigned: '2019-03-15', category: 'Laptop' },
-      { id: 'a2', name: 'iPhone 15 Pro', serial: 'IP-2024-001', assigned: '2024-01-10', category: 'Phone' },
-      { id: 'a3', name: 'Monitor 27"', serial: 'MON-2023-045', assigned: '2023-06-01', category: 'Display' },
+      { id: 'a1', name: 'Company Tablet / Laptop', serial: 'NXR-TAB-001', assigned: '2019-03-15', category: 'Device' },
+      { id: 'a2', name: 'Service Van', serial: 'NXR-VAN-014', assigned: '2024-01-10', category: 'Vehicle' },
+      { id: 'a3', name: 'Protective Gear / PPE Kit', serial: 'NXR-PPE-045', assigned: '2023-06-01', category: 'Safety' },
     ],
   },
   {
@@ -41,7 +41,7 @@ export const employees: Employee[] = [
     initials: 'PN',
     title: 'VP Engineering',
     department: 'Engineering',
-    location: 'San Francisco, CA',
+    location: 'Nairobi, Kenya',
     status: 'Active',
     email: 'priya.nair@nexushr.com',
     phone: '+1 (415) 555-0102',
@@ -126,7 +126,7 @@ export const employees: Employee[] = [
     initials: 'AM',
     title: 'Engineering Manager',
     department: 'Engineering',
-    location: 'San Francisco, CA',
+    location: 'Nairobi, Kenya',
     status: 'Active',
     email: 'alex.morgan@nexushr.com',
     phone: '+1 (415) 555-0105',
@@ -237,7 +237,7 @@ export const employees: Employee[] = [
     initials: 'CK',
     title: 'Sales Director',
     department: 'Sales',
-    location: 'San Francisco, CA',
+    location: 'Nairobi, Kenya',
     status: 'Active',
     email: 'chris.kim@nexushr.com',
     phone: '+1 (415) 555-0109',
@@ -294,7 +294,7 @@ export const employees: Employee[] = [
     initials: 'NF',
     title: 'Financial Analyst',
     department: 'Finance',
-    location: 'San Francisco, CA',
+    location: 'Nairobi, Kenya',
     status: 'Active',
     email: 'nina.foster@nexushr.com',
     phone: '+1 (415) 555-0111',
@@ -342,13 +342,5 @@ export const employees: Employee[] = [
   },
 ];
 
-export const departments = ['Engineering', 'Sales', 'Marketing', 'Operations', 'Finance', 'HR', 'Design'];
-export const locations = [
-  'San Francisco, CA',
-  'Austin, TX',
-  'Seattle, WA',
-  'New York, NY',
-  'Chicago, IL',
-  'Portland, OR',
-  'Los Angeles, CA',
-];
+export const departments = ['Machine Sales', 'Spare Parts', 'Field Service', 'Workshop', 'Logistics', 'HR & Admin'];
+export const locations = ['Nairobi', 'Mombasa', 'Kisumu', 'Kisii', 'Migori'];

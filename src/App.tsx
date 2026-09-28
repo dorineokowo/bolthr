@@ -7,6 +7,9 @@ import { TimeLeave } from '@/pages/TimeLeave';
 import { Recruitment } from '@/pages/Recruitment';
 import { Onboarding } from '@/pages/Onboarding';
 import { PlaceholderPage } from '@/pages/PlaceholderPage';
+import { Payroll } from '@/pages/Payroll';
+import { Performance } from '@/pages/Performance';
+import { Resources } from '@/pages/Resources';
 
 function AppShell() {
   const { currentView } = useApp();
@@ -23,6 +26,12 @@ function AppShell() {
         return <Recruitment />;
       case 'onboarding':
         return <Onboarding />;
+      case 'payroll':
+        return <Payroll />;
+      case 'performance':
+        return <Performance />;
+      case 'resource-hub':
+        return <Resources />;
       default:
         return <PlaceholderPage view={currentView} />;
     }
